@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #535050;
+    background: linear-gradient(to left, black, rgb(70, 70, 73));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,8 +8,9 @@ body {
     margin: 0;
 }
 
+
 .container {
-    background: #fff;
+    background: #403f3f;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,12 +20,13 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    color: #e3ece5;
 }
 
 input[type="text"] {
     width: 80%;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #e4e0e0;
     border-radius: 3px;
 }
 
@@ -51,7 +53,8 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #f4f4f4;
+    color: #e6ece8;
+    background: #787676;
     margin-top: 10px;
     padding: 10px;
     border-radius: 3px;
@@ -73,5 +76,5 @@ li {
 #timeDisplay {
     margin-bottom: 20px;
     font-size: 1.5em;
-    color: #666;
+    color: #f2e8e8;
 }
