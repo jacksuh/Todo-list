@@ -27,6 +27,14 @@ nav h1 {
     text-align: left; /* Alinha o texto à esquerda */
 }
 
+nav  a {
+    text-decoration: none;
+    color: #f1f0f0;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
 .container {
     background: rgba(15, 15, 15, 0.8);
     padding: 20px;
